@@ -1,0 +1,93 @@
+body {
+    transition: 0.3s;
+
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+}
+
+.brands_container {
+    transition: 0.3s;
+
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 10px;
+    transition: height 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.search {
+    transition: 0.3s;
+
+    margin-bottom: 10px;
+}
+
+.search_bar {
+    transition: 0.3s;
+
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+ul {
+    transition: 0.3s;
+    list-style: decimal;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+h2 {
+    color: white;
+}
+
+.popupwrapper {
+    transition: 0.3s;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    transition: 0.3s;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.popupwrapper span svg {
+    transition: 0.3s;
+    width: 10px;
+    height: 10px;
+    fill: white;
+}
+
+.search {
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 20px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    transition: 0.3s;
+    padding: 5px 0;
+}
+
+.show_more_container {
+    transition: 0.3s;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    max-width: 190px;
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
